@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get '/greeting', to: 'custom_pages#hello'
   get '/users', to: 'users#index'
+  get '/about', to: 'pages#about'
   # Defines the root path route ("/")
   # root "articles#index"
 end
